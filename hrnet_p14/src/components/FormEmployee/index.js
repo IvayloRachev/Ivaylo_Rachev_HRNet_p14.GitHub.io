@@ -1,4 +1,3 @@
-
 import "react-datepicker/dist/react-datepicker.css";
 import React, { useState, useContext } from "react";
 import DatePicker from "react-datepicker";
@@ -9,6 +8,10 @@ import { validationSchema } from "./validations";
 import { STATES, DEPARTMENTS } from "../../data/dataDropdown";
 import Modal from "../Modal";
 
+/**
+ * Function for displaying the form and add an a employee
+ * @returns {JS} react component
+ */
 
 const Form = () => {
   //library react-hook-form

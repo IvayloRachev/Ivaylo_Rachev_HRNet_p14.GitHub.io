@@ -2,6 +2,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+/**
+ * Function for displaying the error page with the error message
+ * @returns {JS} - the error message
+ */
+
 const Error = () => {
   return (
     <div className="error-message">

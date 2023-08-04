@@ -69,6 +69,11 @@ const columns = [
   },
 ];
 
+/**
+ * Function for display the list of employyes
+ * @returns {JS} - List of employees
+ */
+
 const Table = () => {
   const { list } = useContext(EmployeeContext);
 

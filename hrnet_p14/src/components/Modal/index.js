@@ -1,6 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+/**
+ * Function for displaying the modal
+ * @param {string} text 
+ * @returns {JS} react component
+ */
 function Modal({ text }) {
   const handleCloseModal = () => {
     const modal = document.querySelector(".modal");

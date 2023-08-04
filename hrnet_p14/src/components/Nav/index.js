@@ -2,6 +2,11 @@
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo_wealth_health.jpg";
 
+/**
+ * Navbar component
+ * @returns {JS.Element} - The render Navbar component
+ */
+
 const Nav = () => {
   return (
     <nav className="nav">
