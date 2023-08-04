@@ -1,0 +1,34 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .menu {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+
+        .menu-text {
+            font-size: 20px;
+            text-decoration: none;
+            color: #6d8211;
+            &:hover {
+                cursor: pointer;
+                font-size: 22px;
+                text-decoration: underline;
+            }
+        }
+    }
+  }
+
+  .active {
+    font-weight: 900;
+  }
+  
+  

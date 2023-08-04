@@ -1,0 +1,94 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 1%;
+    &-employee-details {
+      width: 70%;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    & label {
+      display: flex;
+      width: 100%;
+    }
+    & input,
+    select,
+    textarea {
+      //hide arrow dropdown
+      appearance: none;
+      box-sizing: content-box;
+      display: flex;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 250px;
+      margin: 0;
+      margin-top: 5px;
+      padding: 1px 2px 0px 15px;
+      background-color: rgba(226, 232, 227, 0.6);
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      color: #6d8211;
+      font-weight: bolder;
+      &:hover {
+        background-color: rgba(109, 130, 18, 0.3);
+      }
+    }
+    & select {
+      color: #6d8211;
+      cursor: pointer;
+      background-image: linear-gradient(45deg, transparent 50%, white 50%),
+        linear-gradient(135deg, white 50%, transparent 50%),
+        linear-gradient(to right, #6d8211, #6d8211);
+      background-position: calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px), 100% 0;
+      background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+      background-repeat: no-repeat;
+    }
+    & textarea:focus,
+    input:focus {
+      color: black;
+    }
+    & ::placeholder {
+      color: black;
+      font-size: 12px;
+      font-weight: normal;
+    }
+  }
+  
+  #start-date,
+  #date-of-birth {
+    cursor: pointer;
+  }
+  
+  #btn-submit {
+    border-radius: 5px;
+    margin: auto;
+    width: 150px;
+    height: 40px;
+    background-color: #6d8211;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      color: black;
+    }
+  }
+  
+  small {
+    display: flex;
+    margin-left: 10px;
+    width: fit-content;
+    color: red;
+    margin-bottom: 20px;
+  }
+  

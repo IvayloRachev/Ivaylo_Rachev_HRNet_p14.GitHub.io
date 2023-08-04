@@ -1,0 +1,19 @@
+.modal {
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    padding-top: 2%;
+    background-color: #6d8211;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    span {
+        border: 1px solid black;
+        border-radius: 100%;
+        padding: 2%;
+        font-weight: 900;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
