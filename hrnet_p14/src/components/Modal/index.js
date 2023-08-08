@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+
 /**
  * Function for displaying the modal
  * @param {string} text 
@@ -28,3 +29,4 @@ Modal.propTypes = {
 };
 
 export default Modal;
+

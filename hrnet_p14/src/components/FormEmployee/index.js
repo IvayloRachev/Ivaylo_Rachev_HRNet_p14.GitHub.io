@@ -6,7 +6,7 @@ import { Controller, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { validationSchema } from "./validations";
 import { STATES, DEPARTMENTS } from "../../data/dataDropdown";
-import Modal from "../Modal";
+import { Modal } from "modal_ivaylorachev_p14";
 
 /**
  * Function for displaying the form and add an a employee
