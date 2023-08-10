@@ -144,8 +144,6 @@ const Form = () => {
             placeholder="ex: 12345"
           />
           <small className="text-danger">{errors.zipCode?.message}</small>
-
-          {/* </fieldset> */}
         </div>
 
         <div className="form-employee-details-job">
