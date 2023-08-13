@@ -3,7 +3,7 @@ import * as Yup from "yup";
 // validations on submit form
 export const validationSchema = Yup.object().shape({
   firstName: Yup.string()
-    .required("firstName required")
+    .required("first name required")
     .min(1, "first name must contain at least 1 character ")
     .max(50, "first name must contain 50 characters maximum"),
 
